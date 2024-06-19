@@ -16,7 +16,13 @@ install2.r --error --skipinstalled -n "$NCPUS" \
     assertr \
     kableExtra \
     knitr \
-    usethis
+    usethis \
+    palmerpenguins \
+    quarto \
+    renv \
+    did \
+    pacman \
+    estimatr
 
 rm -rf /tmp/downloaded_packages
 
